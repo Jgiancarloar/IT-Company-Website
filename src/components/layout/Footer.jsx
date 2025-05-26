@@ -18,16 +18,16 @@ const Footer = () => {
             fact that a reader will be distracted by the readable content of a page when looking at
           </p>
           <div className='flex gap-5 text-peachred'>
-            <div className='bg-white aspect-square p-2 rounded-lg w-12'>
+            <div className='bg-white h-12 p-2 rounded-lg w-12'>
               <FaLinkedin className='h-full w-full' />
             </div>
-            <div className='bg-white aspect-square p-2 rounded-lg w-12'>
+            <div className='bg-white h-12 p-2 rounded-lg w-12'>
               <FaInstagram className='h-full w-full' />
             </div>
-            <div className='bg-white aspect-square p-2 rounded-lg w-12'>
+            <div className='bg-white h-12 p-2 rounded-lg w-12'>
               <FaFacebook className='h-full w-full' />
             </div>
-            <div className='bg-white aspect-square p-2 rounded-lg w-12'>
+            <div className='bg-white h-12 p-2 rounded-lg w-12'>
               <FaTwitter className='h-full w-full' />
             </div>
           </div>

@@ -1,10 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 @import "tailwindcss";
 
-@theme{
+@theme {
     --font-raleway: 'Raleway', sans-serif;
     --color-darkblue: #0E1F51;
     --color-peachred: #FF3E54;
     --color-blackshade: #252525;
     --color-offwhite: #F7F7F7;
+}
+
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
 }
